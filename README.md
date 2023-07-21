@@ -228,6 +228,15 @@ This tutorial outlines the prerequisites, installation, and internal use of Acti
 
 - In order for Users to access and login to Client-1's System one has to allow all Users being created access.  To do this go into Client-1 VM -> Right Click Windows -> System -> Remote Desktop -> Select Users to Access -> Lookup Domain Users -> Click OK. Now all Users have access to Client-1 and can remotely access.
 
+<Div align="center">
+<H3> Sign in as User  </H3>
+</Div>
+<p align="center">
+<img src="https://imgur.com/J6zt7pi.png"/>
+</p>
+
+- Final step in this lab was to log in as a user made account successfully in Client-1.
+
 
 
 
