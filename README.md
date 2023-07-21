@@ -5,7 +5,7 @@
 <div align="center">
 <h1> Active Directory Domain Services Install </h1>
 </div>
-This tutorial outlines the prerequisites, installation, and internal use of Active Directory Domain Services in Azure virtual machines. This includes making two seperate virtual machines, one for the Domain Controller Database, and the other for a Client wanting to use the domain services for their company. The lab shows how to configure new admins and users to be able to connect from the Domain controller to the Client.
+This tutorial outlines the prerequisites, installation, and internal use of Active Directory Domain Services in Azure virtual machines. This includes making two seperate virtual machines, one for the Domain Controller Database, and the other for a Client wanting to use the domain services for their company. The lab shows how to configure new admins and users to be able to connect from the Domain Controller to the Client.
 
 <h2> Environments and Technologies Used</h2>
  
@@ -64,7 +64,7 @@ This tutorial outlines the prerequisites, installation, and internal use of Acti
   <H1> Domain Controller VM Created in Azure </H1>
   </Div>
   <p align="center">
-  <img src=https://imgur.com/Epr4VfL.png>
+  <img src=https://imgur.com/wC0CD1r.png>
   </p>
 
-  - When completing the osTicket install one of the first things I did was create a Supreme Administrator and assign him Roles.  This admin was given all permissions to execute as an admin in the os Ticket system. The process was to go to Admin Panel -> Agents -> Roles-> Tasks-> Check all the boxes within the Permissions.
+- The first step was to set up the Domain Controller VM named (DC-1) with its own Resource Group in Azure. This is the controller that will contain Active Directory's Database within the VM.  
