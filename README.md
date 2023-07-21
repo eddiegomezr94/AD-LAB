@@ -27,6 +27,7 @@ This tutorial outlines the prerequisites, installation, and internal use of Acti
 - Create Client Vitual Machine (VM)
 
 <h2> Post VM Steps </h2>
+
 - Set DC-1 Private IP to Static
 
 - Ping DC-1 from Client-1
@@ -56,3 +57,14 @@ This tutorial outlines the prerequisites, installation, and internal use of Acti
 - Client-1 DOmain User Access
 
 - Sign in as User
+
+  <h2> Prerequisete Steps </h2> 
+
+  <Div align="center">
+  <H1> Domain Controller VM Created in Azure </H1>
+  </Div>
+  <p align="center">
+  <img src=https://imgur.com/Epr4VfL.png>
+  </p>
+
+  - When completing the osTicket install one of the first things I did was create a Supreme Administrator and assign him Roles.  This admin was given all permissions to execute as an admin in the os Ticket system. The process was to go to Admin Panel -> Agents -> Roles-> Tasks-> Check all the boxes within the Permissions.
