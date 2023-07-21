@@ -193,15 +193,6 @@ This tutorial outlines the prerequisites, installation, and internal use of Acti
 - After manually changing CLient-1's DNS and refreshing the VM the next action step is to log in to CLient-1 and check IPConfig to see if the DNS changed to DC-1's private IP. Under DNS it showss the private IP (10.0.0.4), therefore it is connected to DC-1's private IP.
 
 <Div align="center">
-<H3> CLient-1 IPConfig Check DNS </H3>
-</Div>
-<p align="center">
-<img src="https://imgur.com/CoRANBk.png"/>
-</p>
-
-- After manually changing CLient-1's DNS and refreshing the VM the next action step is to log in to CLient-1 and check IPConfig to see if the DNS changed to DC-1's private IP. Under DNS it showss the private IP (10.0.0.4), therefore it is connected to DC-1's private IP.
-
-<Div align="center">
 <H3> Client-1 Domain Name Change Successfully </H3>
 </Div>
 <p align="center">
@@ -217,7 +208,28 @@ This tutorial outlines the prerequisites, installation, and internal use of Acti
 <img src="https://imgur.com/Q2DPYBQ.png"/>
 </p>
 
-- When VM restarts one should be able to successfully log in to Client-1 VM. This Just SHows that it is now possible for an Admin created in DC-1's Active Directory system can log into Client-1. This demonstrates how to connect both VM' and now Admins have access to Client-1's system.  
+- When VM restarts one should be able to successfully log in to Client-1 VM. This Just SHows that it is now possible for an Admin created in DC-1's Active Directory system can log into Client-1. This demonstrates how to connect both VM' and now Admins have access to Client-1's system.
+
+<Div align="center">
+<H3> DC-! Power Shell User Generator </H3>
+</Div>
+<p align="center">
+<img src="https://imgur.com/jftAx9c.png"/>
+</p>
+
+- The next step was to generate new Users within DC-1's Domain Services. This was done to generate a long list of employees for the Client each with the same password and had the ability to change the password once logging on.  To do this one would use PowerShell ISE and input a given script that would generate over 1,000 employees with their personal username. Pretty fun step.
+
+<Div align="center">
+<H3> Client-1 Domain User Access </H3>
+</Div>
+<p align="center">
+<img src="https://imgur.com/RxJyAQi.png"/>
+</p>
+
+- In order for Users to access and login to Client-1's System one has to allow all Users being created access.  To do this go into Client-1 VM -> Right Click Windows -> System -> Remote Desktop -> Select Users to Access -> Lookup Domain Users -> Click OK. Now all Users have access to Client-1 and can remotely access.
+
+
+
 
 
 
