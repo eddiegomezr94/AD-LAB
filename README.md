@@ -61,7 +61,7 @@ This tutorial outlines the prerequisites, installation, and internal use of Acti
   <h2> Prerequisete Steps </h2> 
 
   <Div align="center">
-  <H1> Domain Controller VM Created in Azure </H1>
+  <H3> Domain Controller VM Created in Azure </H3>
   </Div>
   <p align="center">
   <img src=https://imgur.com/wC0CD1r.png>
@@ -69,11 +69,24 @@ This tutorial outlines the prerequisites, installation, and internal use of Acti
 
 - The first step was to set up the Domain Controller VM named (DC-1) with its own Resource Group in Azure. This is the controller that will contain Active Directory's Database within the VM.
 
-    <Div align="center">
-  <H1> Domain Controller VM Created in Azure </H1>
+  <Div align="center">
+  <H3> Client VM Created in Azure </H3>
   </Div>
   <p align="center">
   <img src=https://imgur.com/f1lQ3JB.png>
   </p>
 
-- The second step was to create the Clients VM named (Client-1) using Windows 10 operating system as suggested by the client which is connected to the same Resource Group as DC-1.  It is important for the VM's to be in the same Resource Group as it will connect it to DC-1's V-net, if not in the same Resource Group Client-1 will not have acces to the network. The image above shows that they share the same V-net.  
+- The second step was to create the Clients VM named (Client-1) using Windows 10 operating system as suggested by the client which is connected to the same Resource Group as DC-1.  It is important for the VM's to be in the same Resource Group as it will connect it to DC-1's V-net, if not in the same Resource Group Client-1 will not have acces to the network. The image above shows that they share the same V-net.
+
+  <h2> Post VM Creation Steps </h2> 
+
+  <Div align="center">
+  <H3> DC-1 Private IP Set Static </H3>
+  </Div>
+  <p align="center">
+  <img src=https://imgur.com/eNXKb1S.png>
+  </p>
+
+- After the VM's are created and inspected to be sharing the same virtual network the next step was to set DC-1's private IP adress to static. Initially it is dynamic but the reason to set to static is so that the VM does not change its IP adress when installing the new Domain in the steps ahead.  This will keep the Private IP adress normal at 10.0.0.4 without any new installations affecting the adress. 
+
+   
