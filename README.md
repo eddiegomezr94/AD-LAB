@@ -67,4 +67,13 @@ This tutorial outlines the prerequisites, installation, and internal use of Acti
   <img src=https://imgur.com/wC0CD1r.png>
   </p>
 
-- The first step was to set up the Domain Controller VM named (DC-1) with its own Resource Group in Azure. This is the controller that will contain Active Directory's Database within the VM.  
+- The first step was to set up the Domain Controller VM named (DC-1) with its own Resource Group in Azure. This is the controller that will contain Active Directory's Database within the VM.
+
+    <Div align="center">
+  <H1> Domain Controller VM Created in Azure </H1>
+  </Div>
+  <p align="center">
+  <img src=https://imgur.com/f1lQ3JB.png>
+  </p>
+
+- The second step was to create the Clients VM named (Client-1) using Windows 10 operating system as suggested by the client which is connected to the same Resource Group as DC-1.  It is important for the VM's to be in the same Resource Group as it will connect it to DC-1's V-net, if not in the same Resource Group Client-1 will not have acces to the network. The image above shows that they share the same V-net.  
