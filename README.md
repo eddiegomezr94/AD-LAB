@@ -87,7 +87,7 @@ This tutorial outlines the prerequisites, installation, and internal use of Acti
 <img src=https://imgur.com/eNXKb1S.png>
 </p>
 
-- After the VM's are created and inspected to be sharing the same virtual network the next step was to set DC-1's private IP adress to static. Initially it is dynamic but the reason to set to static is so that the VM does not change its IP adress when installing the new Domain in the steps ahead.  This will keep the Private IP adress normal at 10.0.0.4 without any new installations affecting the adress.
+- After the VM's are created and inspected to be sharing the same virtual network the next step was to set DC-1's private IP address to static. Initially it is dynamic but the reason to set to static is so that the VM does not change its IP address when installing the new Domain in the steps ahead.  This will keep the Private IP address normal at 10.0.0.4 without any new installations affecting the address.
 
 <Div align="center">
 <H3> Perpetual Ping Test </H3>
@@ -96,7 +96,7 @@ This tutorial outlines the prerequisites, installation, and internal use of Acti
 <img src=https://imgur.com/C1vRxGc.png>
 </p>
 
-- The next step was to log in to Client-1 VM and perpetually ping DC-1's private IP in order to see if there was a reply.  This was to see if DC-1 allowed Client-1 to recieve diagnostics that came from DC-1. Apparently the Fire Wall in DC-1 did not enable Client-1 to recieve diagnostics as shown above.
+- The next step was to log in to Client-1 VM and perpetually ping DC-1's private IP (10.0.0.4) in order to see if there was a reply.  This was to see if DC-1 allowed Client-1 to recieve diagnostics that came from DC-1. Apparently the Fire Wall in DC-1 did not enable Client-1 to recieve diagnostics as shown above.
 
 <Div align="center">
 <H3> DC-1 ICMPV4 Fire Wall Enabled </H3>
@@ -106,4 +106,24 @@ This tutorial outlines the prerequisites, installation, and internal use of Acti
 </p>
 
 - The step that follows shows the enablement of DC-1's IMPV4'S Network Diagnostics within Windows Defender Firewall.
+
+<Div align="center">
+<H3> Perpetual Ping Test Working </H3>
+</Div>
+<p align="center">
+<img src=https://imgur.com/ldnaWYv.png>
+</p>
+
+- This next step shows Client-1 perpetual ping from before now recieving request from DC-1's private IP address successfully.
+
+<Div align="center">
+<H3> Active Directory Domain Services Install </H3>
+</Div>
+<p align="center">
+<img src=https://imgur.com/eOqzbk2.png>
+</p>
+
+- Within the next step is the installation of the Domain Services within Active Directory. You begin by Adding Roles and Features ->  Check Active Directory Domain Services -> Hit next until Install.
+
+
 
