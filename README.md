@@ -211,7 +211,7 @@ This tutorial outlines the prerequisites, installation, and internal use of Acti
 - When VM restarts one should be able to successfully log in to Client-1 VM. This Just SHows that it is now possible for an Admin created in DC-1's Active Directory system can log into Client-1. This demonstrates how to connect both VM' and now Admins have access to Client-1's system.
 
 <Div align="center">
-<H3> DC-! Power Shell User Generator </H3>
+<H3> DC-1 Power Shell User Generator </H3>
 </Div>
 <p align="center">
 <img src="https://imgur.com/jftAx9c.png"/>
