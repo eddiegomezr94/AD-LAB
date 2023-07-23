@@ -80,7 +80,7 @@ This tutorial outlines the prerequisites, installation, and internal use of Acti
 <img src=https://imgur.com/f1lQ3JB.png>
 </p>
 
-- The second step was to create the Clients VM named (Client-1) using Windows 10 operating system as suggested by the client which is connected to the same Resource Group as DC-1.  It is important for the VM's to be in the same Resource Group as it will connect it to DC-1's V-net, if not in the same Resource Group Client-1 will not have acces to the network. The image above shows that they share the same V-net.
+- The second step was to create the Clients VM named (Client-1) using Windows 10 operating system as suggested by the client which is connected to the same Resource Group as DC-1.  It is important for the VM's to be in the same Resource Group as it will connect it to DC-1's V-net, if not in the same Resource Group Client-1 will not have access to the network. The image above shows that they share the same V-net.
 
 <h2> Post VM Creation Steps </h2> 
 
