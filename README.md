@@ -118,7 +118,7 @@ This tutorial outlines the prerequisites, installation, and internal use of Acti
 <img src=https://imgur.com/ldnaWYv.png>
 </p>
 
-- This next step shows Client-1 perpetual ping from before now recieving request from DC-1's private IP address successfully.
+- This next step shows Client-1 perpetual ping from before now receiving requests from DC-1's private IP address successfully.
 
 <Div align="center">
 <H3> Active Directory Domain Services Install </H3>
@@ -127,7 +127,7 @@ This tutorial outlines the prerequisites, installation, and internal use of Acti
 <img src=https://imgur.com/eOqzbk2.png>
 </p>
 
-- Within the next step is the installation of the Domain Services within Active Directory. You begin by Adding Roles and Features ->  Check Active Directory Domain Services -> Hit next until Install.
+- Next, follow up with the installation of the Domain Services within Active Directory. You begin by Adding Roles and Features ->  Check Active Directory Domain Services -> Hit next until Install.
 
 <Div align="center">
 <H3> Configure New Forest/Custom Domain </H3>
@@ -136,7 +136,7 @@ This tutorial outlines the prerequisites, installation, and internal use of Acti
 <img src=https://imgur.com/R6kvsZN.png>
 </p>
 
-- The next initial step shows how to complete the installation of the clients personalized domain service. For this most part this step just includes the personalized domain name the clietn wants and password used to access the domain systems database.
+- The next initial step shows how to complete the installation of the client's personalized domain service. This step demonstrates how to configure a personalized domain name, login, and password.
 
 <Div align="center">
 <H3> Configure Organizational Units </H3>
@@ -145,7 +145,7 @@ This tutorial outlines the prerequisites, installation, and internal use of Acti
 <img src=https://imgur.com/qGts2bc.png>
 </p>
 
-- After creating the domain the next step was to provide the client new organizational units named _ADMINS and _EMPLOYEES. To do this within AD go to Tools-> Users and Computers -> Right Click Custom Domain -> Add Organizational Unit -> Name _ADMINS. Repeat same process for _EMPLOYEES.
+- The follow-up step was to provide the client with new organizational units named _ADMINS and _EMPLOYEES. To do this within AD go to Tools-> Users and Computers -> Right Click Custom Domain -> Add Organizational Unit -> Name _ADMINS. Repeat the same process for _EMPLOYEES.
 
 <Div align="center">
 <H3> Configure New Admin/Users </H3>
